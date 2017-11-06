@@ -1,0 +1,136 @@
+import turtle
+turtle.colormode(255)
+
+bob = turtle.Turtle()
+bob.width(5)
+bob.speed(10)
+c = (120,140,2)
+turtle.bgcolor("black")
+
+bob.penup()
+bob.goto(146,-5)
+bob.pendown()
+bob.begin_fill()
+for times in range(12):
+    bob.color(c)
+    bob.forward(100)
+    bob.right(165)
+
+    c = (144,125,147)
+    bob.color(c)
+    bob.forward(100)
+    bob.right(15)
+    
+    c = (27,199,145)
+    bob.color(c)
+    bob.forward(100)
+    bob.right(15)  
+    bob.forward(100)
+    bob.right(165)
+
+    c = (15,78,93)
+    bob.color(c)
+    bob.forward(100)
+    bob.right(15)
+    
+    c = (49,79,255)
+    bob.color(c)
+    bob.forward(100)
+    bob.right(15)
+    
+    c = (49,79,255)
+    bob.color(c)
+    bob.forward(100)
+    bob.right(15)
+    
+    bob.forward(100)
+    bob.right(165)
+
+    c = (89,211,1)
+    bob.color(c)
+    bob.forward(100)
+    bob.right(15)
+    
+    c = (244,55,198)
+    bob.color(c)
+    bob.forward(100)
+    bob.right(15)
+    
+    c = (98,169,235)
+    bob.color(c)
+    bob.forward(100)
+    bob.right(15)
+    
+    c = (26,254,157)
+    bob.color(c)
+    bob.forward(100)
+    bob.right(15)  
+    bob.forward(100)
+    bob.right(165)
+
+    c = (49,32,88)
+    bob.color(c)
+    bob.forward(100)
+    bob.right(15)
+    
+    c = (58,26,21)
+    bob.color(c)
+    bob.forward(100)
+    bob.right(15)
+    c = (54,88,66)
+    bob.color(c)
+    bob.forward(100)
+    bob.right(15)  
+    bob.forward(100)
+    bob.right(165)
+
+    c = (66,66,66)
+    bob.color(c)
+    bob.forward(100)
+    bob.right(15)
+    
+    c = (88,88,88)
+    bob.color(c)
+    bob.forward(100)
+    bob.right(15)
+    
+
+    c = (11,11,11)
+    bob.color(c)
+    bob.forward(100)
+    bob.right(15)
+    
+    c = (55,147,248)
+    bob.color(c)
+    bob.forward(100)
+    bob.right(15)  
+    bob.forward(100)
+    bob.right(165)
+
+    c = (255,255,255)
+    bob.color(c)
+    bob.forward(100)
+    bob.right(15)
+    
+    c = (48,65,255)
+    bob.color(c)
+    bob.forward(100)
+    bob.right(15)
+    c = (44,44,44)
+    
+    bob.color(c)
+    bob.forward(100)
+    bob.right(15)  
+    bob.forward(100)
+    bob.right(165)
+
+    c = (123,254,74)
+    bob.color(c)
+    bob.forward(100)
+    bob.right(15)
+    
+    c = (98,99,100)
+    bob.color(c)
+    bob.forward(100)
+    bob.right(15)
+bob.end_fill()
